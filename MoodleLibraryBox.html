@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+
+<html>
+
+
+
+<head>
+
+</head>
+
+<body>
+
+
+
+<!-- Summon Search box HTML -->
+
+
+
+
+
+<p>
+<b>HTML Search box</b>	
+</p>
+
+
+<b><a href="http://mcnylibrary.summon.serialssolutions.com/" target="_blank">Library Search</a><br /></b></p> <form action="http://mcnylibrary.summon.serialssolutions.com/search" method="get"> <input type="text" name="s.q" />
+ <input type="submit" value="Search" /> </form> 
+
+<!-- Summon Search box with Javascript -->
+ <br />
+<b>Javascript Search box</b>
+<br />
+<br />
+<script type="text/javascript" id="sb13e83f078500130fabe683935c24ab0" src="http://mcnylibrary.summon.serialssolutions.com/widgets/box.js"></script><script type="text/javascript">new SummonCustomSearchBox({"id":"#sb13e83f078500130fabe683935c24ab0","params":{},"colors":{},"tagline_text":"MCNY Library","searchbutton_text":"Search","advanced_text":"More search options","advanced":"true","suggest":"true","tagline":"true","popup":"true"})</script>
+<br />
+<!-- MCNY Library website link 
+
+Possibly do this with an icon rather than text? ECM --> 
+<!--Sure, which icon? One consideration is that text loads faster. JD-->
+
+<p><b>Link to new Library Home Page</b></p>
+<a href="http://www.mcny.edu/library/"><img src="images/librarylogo.jpg" border="2"/> <br/>Homepage</a>
+
+<p>
+<b>LibraryH3lp Widget with iFrames</b>
+</p>
+<iframe src="https://libraryh3lp.com/chat/mcny-library-website@chat.libraryh3lp.com?skin=11977" frameborder="1" style="border: 2px inset black; width: 240px; height: 200px;"></iframe> 
+<br/>
+
+
+
+<!-- We will need to create a separate queue for the Moodle Widget
+No problem-JD -->
+
+
+<p>
+<b>Library H3lp Widget with online-offline Javascript</b>
+</p>
+
+
+<div class="needs-js">Chat requires JavaScript.</div>
+
+<div class="libraryh3lp" style="display: none;"><strong>Chat with a librarian:</strong> <br/>
+
+<iframe src="http://libraryh3lp.com/chat/mcny-library-website@chat.libraryh3lp.com" height="200" width="240"></iframe></div>
+
+<div class="libraryh3lp" style="display: none;">Sorry, we're offline, please email as at library@mcny.edu.</div>
+
+<!-- Place this script as near to the end of your BODY as possible. -->
+
+<script type="text/javascript">
+
+(function() {
+
+    var x = document.createElement("script"); x.type = "text/javascript"; x.async = true;
+
+    x.src = (document.location.protocol === "https:" ? "https://" : "http://") + "libraryh3lp.com/js/libraryh3lp.js?multi";
+
+    var y = document.getElementsByTagName("script")[0]; y.parentNode.insertBefore(x, y);
+
+  })();
+
+
+
+ 
+
+</script> 
+
+
+
+</body>
+
+
+
+</html>
